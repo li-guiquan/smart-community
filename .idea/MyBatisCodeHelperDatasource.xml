@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.springcloudalibaba.personmanager.Mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/person-manager/src/main/java" />
+        <option name="javaModelPackage" value="com.springcloudalibaba.personmanager.domain.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/person-manager/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="person-manager" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="car-center">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.springcloud.carcenter.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/car-center/src/main/java" />
+                  <option name="javaModelPacakge" value="com.springcloud.carcenter.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/car-center/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/car-center/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/car-center/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/car-center/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="floor-manager">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.springcloudalibaba.floormanager.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/community-center/floor-manager/src/main/java" />
+                  <option name="javaModelPacakge" value="com.springcloudalibaba.floormanager.domian.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/community-center/floor-manager/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/community-center/floor-manager/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/community-center/floor-manager/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/community-center/floor-manager/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="person-manager">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.springcloudalibaba.personmanager.Mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/person-manager/src/main/java" />
+                  <option name="javaModelPacakge" value="com.springcloudalibaba.personmanager.domain.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/person-manager/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/person-manager/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="user-center">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.springcloudalibaba.usercenter.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="javaModelPacakge" value="com.springcloudalibaba.usercenter.domain.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/user-center/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db_car:business_owner_car">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="BusinessOwnerCar" />
+                  <option name="moduleName" value="car-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_car:business_parking_space">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="BusinessParkingSpace" />
+                  <option name="moduleName" value="car-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_home:business_building_owner">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="BusinessBuildingOwner" />
+                  <option name="moduleName" value="person-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_home:business_building_owner_room_rel">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessBuildingOwnerRoomRel" />
+                  <option name="moduleName" value="floor-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_home:business_building_room">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="BusinessBuildingRoom" />
+                  <option name="moduleName" value="floor-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="BusinessUser" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user_address">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessUserAddress" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user_attr">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessUserAttr" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user_credentials">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessUserCredentials" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user_tag">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessUserTag" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/person-manager/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

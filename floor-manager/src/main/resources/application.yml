@@ -1,0 +1,16 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: floor-manager
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 123.57.129.60:8848
+  profiles:
+    active: dev
+
+feign:
+  okhttp:
+    enabled: true
+
